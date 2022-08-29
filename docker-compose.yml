@@ -1,0 +1,46 @@
+version: '3.3'
+
+services:
+
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
+    
+  person:
+    build: 
+      context: ./person
+    environment:
+      - MONGO_DB_URL=mongodb://mongo:27017/DockerTask
+      - SERVER_PORT=3006
+    ports:
+      - "3006:3006"
+
+  group:
+    build:
+      context: ./group
+    environment:
+      - MONGO_DB_URL=mongodb://mongo:27017/DockerTask
+      - SERVER_PORT=3005
+    ports:
+      - "3005:3005"
+
+  compositor:
+    build: 
+      context: ./compositor
+    environment:
+      - MONGO_DB_URL=mongodb://mongo:27017/DockerTask
+      - SERVER_PORT=8000
+      - GROUP_PORT=3005
+      - PERSON_PORT=3006
+    ports:
+      - "8000:8000"
+
+  front:
+    build:
+      context: ./projectreact
+    ports:
+      - "3002:3002"
+
+
+

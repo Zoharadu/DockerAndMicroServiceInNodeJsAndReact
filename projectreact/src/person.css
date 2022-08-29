@@ -1,0 +1,83 @@
+.firstDiv{
+  margin-top: 2%;
+  margin-left: 25%;
+}
+.name1{
+  border:  solid rgb(109, 193, 250);
+  background-color: aliceblue;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+
+  .creat{
+    margin-top: 2.5%;
+    margin-left: 2%;
+    background-color: rgb(56, 131, 180);
+    border: rgb(56, 131, 180);
+    border-radius: 10px;
+    width: 4vw;
+    height: 2.5vh;
+  }
+
+  .idSearch2{
+    margin-left: 10%;
+    border:  solid rgb(109, 193, 250);
+    background-color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+
+  .search{
+    margin-top: 2.5%;
+    margin-left: 2%;
+    background-color: rgb(56, 131, 180);
+    border: rgb(56, 131, 180);
+    border-radius: 10px;
+    width: 4vw;
+    height: 2.5vh;
+  }
+
+  .cards{
+    border:  solid rgb(109, 193, 250);
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 10px 10px 20px;
+    margin-top: 1.5%;
+    width: 24%;
+  }
+
+  .button{
+    border:  solid rgb(109, 193, 250);
+    background-color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+
+  .updates{
+    margin-top: 2%;
+    margin-left: 0%;
+    margin-right: 10%;
+  }
+
+  .update3{
+    margin-top: 2%;
+    margin-left: 0%;
+    border:  solid rgb(109, 193, 250);
+    background-color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+
+  .update4{
+    border:  solid rgb(109, 193, 250);
+    background-color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+
+  .update5{
+    border:  solid rgb(109, 193, 250);
+    background-color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+
+  .update6{
+    border:  solid rgb(109, 193, 250);
+    background-color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
